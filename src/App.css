@@ -416,6 +416,39 @@ body {
   cursor: pointer;
 }
 
+/* LIGHT MODE FIX */
+.app.light .contact {
+  color: #111;
+}
+
+.app.light .contact-label {
+  color: #ff4d6d; /* biar ada aksen */
+}
+
+.app.light .contact-desc {
+  color: #333;
+}
+
+.app.light .contact-info p {
+  color: #222;
+}
+
+.app.light h2 {
+  color: #000;
+}
+
+.app.light .contact-form input,
+.app.light .contact-form textarea {
+  background: #f5f5f5;
+  color: #111;
+  border: 1px solid #ccc;
+}
+
+.app.light .contact-form input::placeholder,
+.app.light .contact-form textarea::placeholder {
+  color: #888;
+}
+
 .notif {
   margin-top: 15px;
   padding: 12px;
